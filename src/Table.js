@@ -1,6 +1,8 @@
 import "./App.css";
 import React from "react";
 
+// IMPORTANT: React uses 'KEYS' to keep track of elements, make sure to always give each element rendered a key
+
 class Table extends React.Component {
   constructor(props) {
     super(props);
