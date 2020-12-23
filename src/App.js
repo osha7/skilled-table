@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>This is a Table</div>
+      <div className="thisis">This is a Table</div>
       <Table headers={headers} data={data} />
     </div>
   );

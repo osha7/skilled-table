@@ -2,3 +2,24 @@
   text-align: center;
   margin: 0 auto;
 }
+
+.thisis {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: larger;
+}
+
+table,
+th,
+td {
+  width: 80%;
+  text-align: center;
+  /* margin: 2rem; */
+  padding: 2rem;
+  border: 1px black;
+  border-style: solid;
+  border-collapse: collapse;
+  margin: 0 Auto;
+}

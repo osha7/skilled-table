@@ -1,3 +1,4 @@
+import './App.css';
 import React from "react";
 
 class Table extends React.Component {
@@ -10,7 +11,7 @@ class Table extends React.Component {
     const { headers, data } = this.props;
     return (
       <table>
-        <thead>
+        <thead className="headers">
           {/* <th>Name</th>
                     <th>Age</th> */}
           <tr>
