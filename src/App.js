@@ -1,5 +1,7 @@
 import './App.css';
 import Table from './Table'
+import Checkbox from './Checkbox'
+import AgeInYears from './AgeInYears'
 
 function App() {
 
@@ -29,13 +31,15 @@ function App() {
     {
       label: 'Select',
       key: 'select',
+      component: Checkbox,
     },
     {
       label: 'Name',
       key: 'name',
     }, {
-      label: 'Age in years',
-      key: 'age'
+      label: 'Age in Years',
+      key: 'age',
+      component: AgeInYears,
     }, {
       label: 'Foo',
       key: 'foo'
